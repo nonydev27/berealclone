@@ -1,13 +1,13 @@
 import { Image } from "expo-image";
 import {
-  ActivityIndicator,
-  StyleSheet,
-  Text,
-  TextInput,
-  View,
+    ActivityIndicator,
+    StyleSheet,
+    Text,
+    TextInput,
+    View,
 } from "react-native";
 
-export default function Index() {
+export default function About() {
   return (
     <View style={style.container}>
       <Text style={style.title}>Hello World.</Text>
