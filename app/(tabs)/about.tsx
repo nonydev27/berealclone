@@ -1,24 +1,15 @@
 import { Image } from "expo-image";
-import {
-  ActivityIndicator,
-  StyleSheet,
-  Text,
-  TextInput,
-  View,
-} from "react-native";
+import { ActivityIndicator, StyleSheet, View } from "react-native";
 
-export default function Index() {
+export default function About() {
   return (
     <View style={style.container}>
-      <Text style={style.title}>Hello World.</Text>
       <Image
         source={{
           uri: "https://lh3.googleusercontent.com/pw/AP1GczPF4wuuRxcghXH97i5A7_rZoTp45hbTgGbIQ1qQtmeNOpoHhifdO9JeYpWA2Ivtp7_jnP8K45amsMYnM-1etjidzCXM753_iBEwjJm2lbj60JHuP6IO2Q5HpFoyxrTb_bR1_QsvhT1A7iV8sbiXcds9=w1449-h966-s-no?authuser=0",
         }}
         style={style.img}
       />
-
-      <TextInput placeholder="Email" />
       <ActivityIndicator />
     </View>
   );

@@ -1,13 +1,14 @@
 import { Image } from "expo-image";
+import { Link } from "expo-router";
 import {
-    ActivityIndicator,
-    StyleSheet,
-    Text,
-    TextInput,
-    View,
+  ActivityIndicator,
+  StyleSheet,
+  Text,
+  TextInput,
+  View,
 } from "react-native";
 
-export default function About() {
+export default function Index() {
   return (
     <View style={style.container}>
       <Text style={style.title}>Hello World.</Text>
@@ -18,6 +19,7 @@ export default function About() {
         style={style.img}
       />
 
+      <Link href={"/about"}>GO TO ABOUT</Link>
       <TextInput placeholder="Email" />
       <ActivityIndicator />
     </View>
