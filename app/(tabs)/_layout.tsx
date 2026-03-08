@@ -23,7 +23,7 @@ export default function TabsLayout() {
           tabBarIcon: ({ size, color, focused }) => (
             <Ionicons
               name={
-                focused ? "information-circle" : "information-circle-outline"
+                focused ? "information-circle " : "information-circle-outline"
               }
               color={color}
               size={size}
